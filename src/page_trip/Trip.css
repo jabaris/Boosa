@@ -1,0 +1,409 @@
+nav, footer, header, aside {
+    display: block;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  input, button, textarea {
+    font-family: inherit;
+  }
+  
+  input::-ms-clear {
+    display: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  
+  a, a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  img {
+    vertical-align: top;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+    margin: 0;
+  }
+
+/*------------------------------------------------------*/
+._container{
+  width: 1440px;
+  margin: 0 auto;
+    
+
+}
+.Wrapper{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.Wrapper-background{
+  background: linear-gradient(90.00deg, rgb(10, 129, 209),
+  rgba(10, 129, 209, 0.7) 100%);
+  min-height: 550px;
+}
+.Trip-container{
+  display: flex;
+  flex-direction: column;
+}
+.Trip-header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.Logo-boosa{
+  display: flex;
+  width: 100%;
+  max-width: 134px;
+  padding: 43px 0 0 0;
+  
+}
+
+.Trip-icons{
+  display: flex;
+  align-items: center;
+  padding: 35px 0 0 0;
+
+}
+.Trip-user{
+  display: flex;
+  width: 100%;
+  max-width: 54px;
+  margin: 0 13px 0 0;
+}
+
+.Login-btn{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 135%;
+  letter-spacing: 0px;
+  text-align: right;
+  margin: 0 13px 0 0;
+}
+
+.Trip-message{
+  display: flex;
+  width: 100%;
+  max-width: 54px;
+  order: 1;
+}
+
+/*---------------------------------------------------------*/
+
+.Back-btn{
+  width: 100%;
+  max-width: 123px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 72px 0 0 0;
+  padding: 14px 24px;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 100px;
+
+}
+
+.Back-icon{
+  margin: 0 12px 0 0;
+}
+
+.Back-link{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+/*-------------------------------------------------------*/
+.Trip-setting_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100px;
+  }
+  .Trip-setting{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: -100px;
+    width: 918px;
+    height: 269px;
+    border-radius: 16px;
+    box-shadow: 0px 8px 250px 0px rgba(27, 138, 212, 0.25);
+    background: rgb(255, 255, 255);
+  }
+  
+  .Trip-setting_inner{
+    display: flex;
+    flex-direction: row;
+    width: 643px;
+    min-height: 58px;
+    margin: 64px 0 32px 0;
+  }
+  
+  .City-fromWhere{
+    display: flex;
+    flex-direction: column;
+    width: 189px;
+    height: 89px;
+    margin: 0 56px 0 0;
+  
+  }
+  .City{
+    color: rgb(2, 4, 2);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+    text-align: left;
+    margin: 0 0 12px 0;
+  }
+  
+  .Address{
+    color: rgb(146, 148, 173);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+  }
+
+  .Departure{
+    color: rgb(2, 4, 2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    width: 210px;
+    margin: 12px 0 0 0;
+  }
+  
+  .Trip-what{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .Trip-plane_text{
+    color: rgb(82, 166, 222);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 120%;
+    text-align: center;
+    margin: 0 13px 0 0;
+  }
+  
+  .Trip-plane-img{
+    margin: 0 8px 0 0;
+  }
+  
+  .City-toWhere{
+    width: 199px;
+    height: 89px;
+    margin: 0 0 0 56px;
+  }
+
+  .Coming{
+    color: rgb(2, 4, 2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    width: 225px;
+    margin: 12px 0 0 0;
+  }
+  
+ 
+  .Btn-take-package{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 66px;
+    border-radius: 8px;
+    background: linear-gradient(90.00deg, rgb(10, 129, 209),
+      rgba(10, 129, 209, 0.6) 100%);
+    
+  }
+  .Btn-take-package-text{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+  }
+  /* -------------------------------------------------- */
+.Trip-user-card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    margin: 64px 0 32px 0;
+  }
+  .Trip-user-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 918px;
+    padding: 12px 24px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    z-index: 1;
+  }
+  .User-profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 245px;
+    height: 56px;
+  }
+  .User-card-name{
+    display: flex;
+    flex-direction: column;
+    height: 68px;
+  }
+  .User-fullname{
+    color: rgb(2, 4, 2);
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .Btn-next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .User-avatar{
+    margin: 0 12px 0 0;
+  }
+  .Score{
+    max-width: 40px;
+    max-height: 17px; 
+  }
+  /* --------------------------------------- */
+  
+  .User-card-btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    padding: 0 0 120px 0;
+  }
+  
+  .Btn-send-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 449px;
+    box-sizing: border-box;
+    border: 1px solid rgb(82, 166, 222);
+    border-radius: 8px;
+    margin: 0 32px 0 0;
+  
+  }
+  .Btn-send-message-inner{
+    color: rgb(82, 166, 222);
+    font-family: SF Compact Display;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+  
+  }
+  
+  .Btn-send-numb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 449px;
+    box-sizing: border-box;
+    border: 1px solid rgb(82, 166, 222);
+    border-radius: 8px;
+  }
+  
+  .Btn-send-numb-inner{
+    color: rgb(82, 166, 222);
+    font-family: SF Compact Display;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  /* -----------Trip-MAIN------------------------------ */
+
+  .Trip-main-container{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 0 200px 0;
+  }
+  .Trip-main-inner{
+    display: flex;
+    flex-direction: column;
+    max-width: 918px;
+    margin: 0 auto;
+
+
+  }
+  .Trip-main-title{
+    min-width: 779px;
+
+  }
+  .Title-text{
+    color: rgb(2, 4, 2);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 145%;
+    letter-spacing: 1px;
+  }
+
+  .Trip-main-subtitle{
+    max-width: 590px;
+
+  }
+  .Subtitle-text{
+    color: rgb(2, 4, 2);
+    font-family: SF Compact Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 135%;
+}
+
+  
