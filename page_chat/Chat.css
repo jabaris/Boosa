@@ -1,0 +1,277 @@
+.Chat-wrapper {
+    margin: -100px 0 0 0;
+}
+
+.Chat-wrapper_header_container_personalCard_container_inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 918px;
+    margin: 0px auto;
+}
+
+.Chat-wrapper_header_container_personalCard_container_inner>img {
+    margin: 0 0 24px 0;
+}
+
+.Chat-wrapper_header_container_personalCard_container_inner_fullName {
+    color: rgb(2, 4, 2);
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 130%;
+    margin: 0 0 24px 0;
+}
+
+.Chat-wrapper_header_container_personalCard_container_inner_chatWhithHim {
+    color: rgb(146, 148, 173);
+    font-family: SF Compact Display;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    margin: 0 0 56px 0;
+}
+
+.Chat-wrapper_header_container_personalCard_container_inner_phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 66px;
+    box-sizing: border-box;
+    border: 1px solid rgb(82, 166, 222);
+    border-radius: 8px;
+}
+
+.Chat-wrapper_header_container_personalCard_container_inner_phone {
+    color: rgb(82, 166, 222);
+    font-family: SF Compact Display;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+/* ------------Chat-wrapper_main--------------------- */
+.Chat-wrapper_main {
+    margin: 80px 0 0 0;
+    padding: 0 0 80px 0;
+
+}
+
+.Chat-wrapper_main_container {
+    max-width: 918px;
+    margin: 0 auto;
+    border-radius: 16px;
+    box-shadow: 0px 8px 250px 0px rgb(239, 242, 250);
+    background: rgb(255, 255, 255);
+}
+
+.Chat-wrapper_main_container_dialogBox {
+    min-height: 800px;
+}
+
+.Chat-wrapper_main_container_dialogBox_inner {
+    padding: 288px 0 0 0;
+}
+
+.Chat-wrapper_main_container_dialogBox_inner_sendMessage {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 97px 48px 0;
+}
+
+.Last-sendMessage {
+    padding: 0 0 80px 0;
+}
+
+.Chat-wrapper_main_container_dialogBox_inner_sendMessage_text {
+    display: inline-flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px rgb(239, 242, 250);
+    background: rgb(78, 164, 222);
+}
+
+.Chat-wrapper_main_container_dialogBox_inner_sendMessage_text>p {
+    color: rgb(255, 255, 255);
+    font-family: SF Compact Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.Chat-wrapper_main_container_dialogBox_inner_sendMessage>div {
+    margin: 0 8px 0 0;
+    color: rgb(146, 148, 173);
+    font-family: SF Compact Display;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.Chat-wrapper_main_container_dialogBox_inner_getMessage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 12px 198px;
+}
+
+.Last-getMessage {
+    margin: 0 0 130px 198px;
+}
+
+.Chat-wrapper_main_container_dialogBox_inner_getMessage_text {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 24px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px rgb(239, 242, 250);
+    background: rgb(255, 255, 255);
+}
+
+.Chat-wrapper_main_container_dialogBox_inner_getMessage_text>p {
+    color: rgb(2, 4, 2);
+    font-family: SF Compact Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.Chat-wrapper_main_container_dialogBox_inner_getMessage>div {
+    margin: 0 0 0 8px;
+    color: rgb(146, 148, 173);
+    font-family: SF Compact Display;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.Chat-wrapper_main_container_dialogBox_inner_areaInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 64px;
+    border-top: 1px solid rgba(146, 148, 173, 0.5);
+}
+
+.Chat-wrapper_main_container_dialogBox_inner_areaInput>form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Chat-wrapper_main_container_dialogBox_inner_areaInput_paste>img {
+    margin: 7px 0 0 25px;
+}
+
+.Chat-wrapper_main_container_dialogBox_inner_areaInput_input::placeholder {
+    color: rgb(146, 148, 173);
+    font-family: SF Compact Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.Chat-wrapper_main_container_dialogBox_inner_areaInput_input {
+    border: 0px;
+    padding: 22px 555px 22px 0;
+}
+
+.Chat-wrapper_main_container_dialogBox_inner_areaInput_btn {
+    padding: 22px 46px;
+    border-bottom-right-radius: 8px;
+    border-color: rgb(78, 164, 222);
+
+    background: linear-gradient(90.00deg, rgb(10, 129, 209), rgba(10, 129, 209, 0.7) 100%);
+}
+.SendBtnMobile{
+    display: none;
+}
+
+
+@media (max-width: 576px) {
+    .Chat-wrapper_header_container_personalCard_container_inner{
+        width: 100%;
+        max-width: 343px;
+        padding: 0 0 170px 0;
+    }
+    .Chat-wrapper_header_container_personalCard_container_inner>img{
+        margin: 0 0 16px 0;
+    }
+    .Chat-wrapper_header_container_personalCard_container_inner_fullName{
+        font-size: 28px;
+        color: #fff;
+        text-align: center;
+    }
+    .Chat-wrapper_header_container_personalCard_container_inner_chatWhithHim{
+        font-size: 14px;
+        color: #fff;
+        margin: 0 0 32px 0;
+    }
+    .Chat-wrapper_header_container_personalCard_container_inner_phone{
+        box-sizing: border-box;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 8px;
+        box-shadow: 0px 8px 32px 0px rgba(27, 138, 212, 0.5);
+    }
+    .Chat-wrapper_header_container_personalCard_container_inner_phone>p{
+        font-size: 14px;
+        color: #fff;
+    }
+    .Chat-wrapper_main{
+        margin: 0;
+    }
+    .Chat-wrapper_main_container{
+        width: 100%;
+        max-width: 343px;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    .Chat-wrapper_main_container_dialogBox_inner_sendMessage{
+        margin: 0 0 48px 0;
+    }
+    .Chat-wrapper_main_container_dialogBox_inner_getMessage_text>p{
+        font-size: 14px;
+    }
+
+    .Chat-wrapper_main_container_dialogBox_inner_getMessage{
+        margin: 0 0 14px 0;
+    }
+    .Chat-wrapper_main_container_dialogBox_inner_sendMessage_text>p{
+        font-size: 14px;
+    }
+    .Last-getMessage{
+        margin: 0 0 48px 0;
+    }
+    .Last-sendMessage{
+        margin: 0 0 72px 0;
+        padding: 0;
+    }
+    .Chat-wrapper_main_container_dialogBox_inner_areaInput_paste>img{
+        margin: 0 12px 0 0;
+    }
+    .Chat-wrapper_main_container_dialogBox_inner_areaInput_input{
+        padding: 20px 80px 20px 0;
+    }
+    .Chat-wrapper_main_container_dialogBox_inner_areaInput_btn{
+        background: inherit;
+        border-color: inherit;
+        border: 0;
+        padding: 21px 17px;
+    }
+    .Chat-wrapper_main_container_dialogBox_inner_areaInput_btn>img:first-child{
+        display: none;
+    }
+    .SendBtnMobile{
+        display: block;
+    }
+}

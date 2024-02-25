@@ -1,0 +1,1007 @@
+
+.Back-btn {
+    display: inline-flex;
+    width: 100%;
+    max-width: 123px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 72px 0 0 0;
+    padding: 14px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(82, 166, 222);
+    ;
+    border-radius: 100px;
+}
+
+.Back-icon {
+    margin: 0 12px 0 0;
+}
+
+.Back-link {
+    color: rgb(82, 166, 222);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* ----------------------HEADER--------------------------------- */
+.Header {
+    width: 100%;
+    margin: 0 0 44px 0;
+}
+
+.Header-background {
+    width: 100%;
+    background: linear-gradient(90.00deg, rgb(239, 242, 250),
+            rgba(239, 242, 250, 0.7) 100%);
+    min-height: 732px;
+}
+
+.Header-container {
+    width: 1440px;
+    margin: 0 auto;
+
+}
+
+.Header-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 29px 0 0 0;
+}
+
+.Header-logo {
+    display: flex;
+    text-align: center;
+}
+
+.Header-right-part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Header-user-name {
+    color: rgb(2, 4, 2);
+    font-family: SF Compact Display;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 135%;
+    letter-spacing: 1px;
+    margin: 0 16px 0 0;
+}
+
+.Right-part-icons img:not(:last-child) {
+    margin: 0 24px 0 0;
+}
+
+/* ----------------User-card-------------------------- */
+.Personal-card {
+    margin: -50px 0 0 0;
+}
+
+.Personal-card-container {
+    max-width: 918px;
+    margin: 0 auto;
+}
+
+.Personal-card-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.Personal-card-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 0 24px 0;
+}
+
+.Personal-card_avatar_pencil {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 105px;
+    margin: 0 0 0 120px;
+    padding: 8px;
+    border-radius: 100px;
+    box-shadow: 0px 8px 12px 0px rgba(27, 138, 212, 0.25);
+    background: rgb(255, 255, 255);
+}
+
+.Personal-card-fullname {
+    margin: 0 0 24px 0;
+}
+
+.Fullname-text {
+    color: rgb(2, 4, 2);
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.Personal-card-rate {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 16px 0;
+
+}
+
+.rate-icon {
+    margin: 0 6px 0 0;
+}
+
+.rate-text {
+    color: rgb(146, 148, 173);
+    font-family: SF Compact Display;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 1px;
+}
+
+.Feetbacks {
+    margin: 0 0 24px 0;
+}
+
+.Feetbacks-text {
+    color: rgb(146, 148, 173);
+    font-family: SF Compact Display;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 1px;
+}
+
+.Personal-card_back {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding: 8px 24px;
+    margin: 0 0 72px 0;
+    border-radius: 100px;
+    background: rgba(217, 4, 41, 0.15);
+}
+
+.Personal-card_back_btn {
+    margin: 0 12px 0 0;
+    color: rgb(217, 4, 41);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 135%;
+    text-align: center;
+}
+
+/* --------------------MAIN---------------------------- */
+
+.Main {
+    padding: 0 0 80px 0;
+}
+
+.Main-container {
+    width: 100%;
+    max-width: 918px;
+    margin: 0 auto;
+}
+
+.Main-container_inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main-container_inner_contactInformation {
+    min-width: 918px;
+    min-height: 275px;
+    border-radius: 16px;
+    box-shadow: 0px 8px 250px 0px rgb(239, 242, 250);
+    background: rgb(255, 255, 255);
+    margin: -170px 0 56px 0;
+}
+
+.Main-container_inner_contactInformation_inner {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 0 0 64px;
+}
+
+.Main-container_inner_contactInformation_inner_title {
+    color: rgb(146, 148, 173);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 0 0 56px 0;
+}
+
+.Main-container_inner_contactInformation_inner_data {
+    display: flex;
+    flex-direction: row;
+}
+
+.Main-container_inner_contactInformation_inner_data_email {
+    display: flex;
+    flex-direction: row;
+}
+
+.Main-container_inner_contactInformation_inner_data_email img {
+    margin: 0 14px 0 0;
+}
+
+.Main-container_inner_contactInformation_inner_data_email_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(146, 148, 173);
+    border-radius: 500px;
+    margin: 0 34px 0 0;
+}
+
+.Main-container_inner_contactInformation_inner_data_email_row img:first-child {
+    margin: 0 14px 0 0;
+}
+
+.Main-container_inner_contactInformation_inner_data_email_row img:last-child {
+    margin: 0;
+}
+
+.Main-container_inner_contactInformation_inner_data_email_row p {
+    color: rgb(2, 4, 2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 135%;
+    margin: 0 14px 0 0;
+}
+
+.Main-container_inner_contactInformation_inner_data_phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Main-container_inner_contactInformation_inner_data_phone img {
+    margin: 0 14px 0 0;
+
+}
+
+.Main-container_inner_contactInformation_inner_data_phone_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(146, 148, 173);
+    border-radius: 500px;
+}
+
+.Main-container_inner_contactInformation_inner_data_phone_row img:first-child {
+    margin: 0 15px 0 0;
+}
+
+.Main-container_inner_contactInformation_inner_data_phone_row img:last-child {
+    margin: 0;
+}
+
+.First-number {
+    color: rgb(2, 4, 2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 135%;
+    margin: 0 8px 0 0;
+}
+
+.Main-container_inner_contactInformation_inner_data_phone_row p {
+    margin: 0 14px 0 0;
+    color: rgb(146, 148, 173);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 135%;
+}
+
+/* -------------Main-container_inner_travelHistory_inner---------------- */
+.Main-container_inner_travelHistory {
+    width: 918px;
+    border-radius: 16px;
+    box-shadow: 0px 8px 250px 0px rgb(239, 242, 250);
+    background: rgb(255, 255, 255);
+    margin: 0 0 56px 0;
+}
+
+.Main-container_inner_travelHistory_inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.Main-container_inner_travelHistory_inner_title {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0 0 80px 0;
+    padding: 48px 0 0 64px;
+}
+
+.Main-container_inner_travelHistory_inner_title p {
+    color: rgb(146, 148, 173);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 0 8px 0 0;
+}
+
+.Main-container_inner_travelHistory_inner_title_degree {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Main-container_inner_travelHistory_inner_title_degree p {
+    color: rgb(146, 148, 173);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.Main-container_inner_travelHistory_inner_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.Main-container_inner_travelHistory_inner_column_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 24px 40px;
+    min-height: 208px;
+    box-sizing: border-box;
+    border: 1px solid rgb(217, 219, 241);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.Main-container_inner_travelHistory_inner_column_item:last-child {
+    margin: 0 24px 120px;
+}
+
+.Main-container_inner_travelHistory_inner_column_item_img {
+    margin: 0 45px 0 60px;
+}
+
+.Main-container_inner_travelHistory_inner_column_item_fromWhere {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 56px 0 0;
+}
+
+.Main-container_inner_travelHistory_inner_column_item_fromWhere_time {
+    color: rgb(146, 148, 173);
+    font-family: SF Compact Display;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    margin: 12px 0 0 0;
+}
+
+.Main-container_inner_travelHistory_inner_column_item_fromWhere p {
+    color: rgb(2, 4, 2);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.Main-container_inner_travelHistory_inner_column_item_whatWay {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 57px 0 0;
+}
+
+.Main-container_inner_travelHistory_inner_column_item_whatWay img:first-child {
+    margin: 0 8px 0 0;
+}
+
+.Main-container_inner_travelHistory_inner_column_item_whatWay p {
+    color: rgb(82, 166, 222);
+    font-family: SF Compact Display;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 120%;
+    margin: 0 12px 0 0;
+}
+
+.Main-container_inner_travelHistory_inner_column_item_whatWay img:last-child {
+    margin: 0;
+}
+
+.Main-container_inner_travelHistory_inner_column_item_ToWhere {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.Main-container_inner_travelHistory_inner_column_item_ToWhere_time {
+    color: rgb(146, 148, 173);
+    font-family: SF Compact Display;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    margin: 12px 0 0 0;
+}
+
+.Main-container_inner_travelHistory_inner_column_item_ToWhere p {
+    color: rgb(2, 4, 2);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+/* --------------Main-container_inner_sendingHistory---------------- */
+.Main-container_inner_sendingHistory {
+    width: 918px;
+    border-radius: 16px;
+    box-shadow: 0px 8px 250px 0px rgb(239, 242, 250);
+    background: rgb(255, 255, 255);
+    margin: 0 0 56px 0;
+}
+
+.Main-container_inner_sendingHistory_inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.Main-container_inner_sendingHistory_inner_title {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0 0 80px 0;
+    padding: 48px 0 0 64px;
+}
+
+.Main-container_inner_sendingHistory_inner_title p {
+    color: rgb(146, 148, 173);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 0 8px 0 0;
+}
+
+.Main-container_inner_sendingHistory_inner_title_degree {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Main-container_inner_sendingHistory_inner_title_degree p {
+    color: rgb(146, 148, 173);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.Main-container_inner_sendingHistory_inner_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.Main-container_inner_sendingHistory_inner_column_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-height: 286px;
+    margin: 0 24px 72px;
+    box-sizing: border-box;
+    border: 1px solid rgb(217, 219, 241);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.Main-container_inner_sendingHistory_inner_column_item_title {
+    color: rgb(2, 4, 2);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 1px;
+    margin: 56px 0 0 72px;
+}
+
+.Main-container_inner_sendingHistory_inner_column_item_termsOfSending {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 32px 0 32px 72px;
+}
+.Main-container_inner_sendingHistory_inner_column_item_termsOfSending_mobileImg{
+    display: none;
+}
+.Main-container_inner_sendingHistory_inner_column_item_termsOfSending_icons{
+    display: flex;
+    flex-direction: row;
+}
+.Main-container_inner_sendingHistory_inner_column_item_termsOfSending img {
+    margin: 0 8px 0 0;
+}
+
+.Main-container_inner_sendingHistory_inner_column_item_termsOfSending img:last-child {
+    margin: 0;
+}
+
+.Main-container_inner_sendingHistory_inner_column_item_termsOfSending p {
+    color: rgb(82, 166, 222);
+    font-family: SF Compact Display;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 120%;
+    margin: 0 12px 0 0;
+
+}
+
+.Main-container_inner_sendingHistory_inner_column_item_termsOfSending_cityFromWhere {
+    color: rgb(2, 4, 2);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 0 32px 0 0;
+}
+
+.Main-container_inner_sendingHistory_inner_column_item_termsOfSending_cityToWhere {
+    color: rgb(2, 4, 2);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 0 12px 0 26px;
+}
+
+.Main-container_inner_sendingHistory_inner_column_item_termsOfSending_time {
+    color: rgb(146, 148, 173);
+    font-family: SF Compact Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+}
+.Main-container_inner_sendingHistory_inner_column_item_termsOfSending_timeMobile{
+    display: none;
+}
+
+.Main-container_inner_sendingHistory_inner_column_item_terms {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 72px;
+}
+
+.Main-container_inner_sendingHistory_inner_column_item_terms_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 16px 0 0;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: rgba(82, 166, 222, 0.15);
+}
+
+.Main-container_inner_sendingHistory_inner_column_item_terms_item img {
+    margin: 0 11px 0 0;
+}
+
+.Main-container_inner_sendingHistory_inner_column_item_terms_item p {
+    color: rgb(82, 166, 222);
+    font-family: SF Compact Display;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+/* ------------Main-container_inner_feedbacks------------------------ */
+.Main-container_inner_feedbacks {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    box-shadow: 0px 8px 250px 0px rgb(239, 242, 250);
+    background: rgb(255, 255, 255);
+}
+
+.Main-container_inner_feedbacks_inner {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 64px 106px;
+}
+
+.Main-container_inner_feedbacks_inner_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 0 80px 0;
+}
+
+.Main-container_inner_feedbacks_inner_title p {
+    color: rgb(146, 148, 173);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 0 8px 0 0;
+}
+
+.Main-container_inner_feedbacks_inner_title_digree {
+    color: rgb(146, 148, 173);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.Main-container_inner_feedbacks_inner_column {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Main-container_inner_feedbacks_inner_column_item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0 0 56px 0;
+}
+
+.Main-container_inner_feedbacks_inner_column_item_avatar {
+    margin: 0 24px 0 0;
+}
+
+.Main-container_inner_feedbacks_inner_column_item_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.Main-container_inner_feedbacks_inner_column_item_content_nickname {
+    color: rgb(0, 0, 0);
+    font-family: SF Compact Display;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    margin: 0 0 16px 0;
+}
+
+.Main-container_inner_feedbacks_inner_column_item_content_starsAndDate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 16px 0;
+
+}
+
+.Main-container_inner_feedbacks_inner_column_item_content_starsAndDate_stars {
+    display: flex;
+    flex-direction: row;
+    min-width: 112px;
+    margin: 0 16px 0 0;
+}
+
+.Main-container_inner_feedbacks_inner_column_item_content_starsAndDate_stars img:not(:last-child) {
+    margin: 0 8px 0 0;
+}
+
+.Main-container_inner_feedbacks_inner_column_item_content_starsAndDate_datePublication {
+    color: rgb(146, 148, 173);
+    font-family: SF Compact Display;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.Main-container_inner_feedbacks_inner_column_item_content_text {
+    color: rgb(2, 4, 2);
+    font-family: SF Compact Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 135%;
+}
+.Main-container_inner_travelHistory_inner_column_item_mobileImg{
+    display: none;
+}
+
+
+@media (max-width:576px) {
+    .Header-container{
+      width: 375px;
+      margin: 0 auto;
+    }
+    .User-card-avatar{
+        margin: 0 0 16px 0;
+    }
+    .User-card-avatar>img{
+        width: 104px;
+    }
+    .User-card-fullname{
+        margin: 0 0 16px 0;
+    }
+    .Fullname-text{
+        color: rgb(255, 255, 255);
+        font-size: 28px;
+    }
+    .User-card-rate{
+        margin: 0 0 8px 0;
+    }
+    .rate-text{
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+    }
+    .Feetbacks{
+        margin: 0 0 32px 0;
+    }
+    .Feetbacks-text{
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+    }
+    /* -------------Personal-page---------------------- */
+    .Personal-card-container{
+        max-width: 375px;
+        margin: 0 auto;
+    }
+    .Personal-card_back{
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.15);
+        margin: 0 0 48px 0;
+    }
+    .Personal-card_back_btn{
+        font-size: 14px;
+        color: #fff;
+    }
+
+    .Main-container_inner{
+        margin: 104px 0 0 0;
+    }
+    .Main-container_inner_contactInformation{
+        margin: 0 0 104px 0;
+        min-width: min-content;
+        box-sizing: border-box;
+        border: 1px solid rgb(217, 219, 241);
+        border-radius: 16px;
+        background: rgb(255, 255, 255);
+    }
+    .Main-container_inner_contactInformation_inner{
+        padding: 48px 0 0 16px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .Main-container_inner_contactInformation_inner_title{
+        color: rgb(146, 148, 173);
+        font-size: 24px;
+    }
+    .Main-container_inner_contactInformation_inner_data{
+        flex-direction: column;
+    }
+    .Main-container_inner_contactInformation_inner_data_email{
+        margin: 0 0 16px 0;
+    }
+
+    .Main-container_inner_travelHistory{
+        border-radius: 0;
+        box-shadow: none;
+        background: inherit;
+        width: 100%;
+        max-width: 360px;
+    }
+    .Main-container_inner_travelHistory_inner_title{
+        margin: 0 0 24px 0;
+        padding: 0 0 0 22px;
+    }
+    .Main-container_inner_travelHistory_inner_title>p{
+        font-size: 24px;
+    }
+    .Main-container_inner_travelHistory_inner_title_degree{
+        display: none;
+    }
+    .Main-container_inner_travelHistory_inner_column_item{
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        min-height: max-content;
+        padding: 24px 0 40px 16px;
+        overflow: hidden;
+    }
+    .Main-container_inner_travelHistory_inner_column_item_img{
+        position: absolute;
+        top: 0;
+        left: 60%;
+        width: 127px;
+        height: 127px;
+    }
+    .Main-container_inner_travelHistory_inner_column_item_mobileImg{
+        display: block;
+        position: absolute;
+        top: 20%;
+    }
+    .Main-container_inner_travelHistory_inner_column_item_fromWhere{
+        margin: 0 0 0 22px;
+
+    }
+    .Main-container_inner_travelHistory_inner_column_item_fromWhere>p{
+        font-size: 16px;
+    }
+    .Main-container_inner_travelHistory_inner_column_item_fromWhere_time{
+        margin: 8px 0 16px 0;
+        font-size: 12px;
+    }
+    .Main-container_inner_travelHistory_inner_column_item_whatWay{
+        margin: 0 0 16px 22px;
+    }
+    .Main-container_inner_travelHistory_inner_column_item_whatWay>p{
+        font-size: 12px;
+    }
+    .Main-container_inner_travelHistory_inner_column_item_whatWay>img:not(:first-child){
+        display: none;
+    }
+    .Main-container_inner_travelHistory_inner_column_item_ToWhere{
+        margin: 0 0 0 22px;
+    }
+    .Main-container_inner_travelHistory_inner_column_item_ToWhere>p{
+        font-size: 16px;
+    }
+    .Main-container_inner_travelHistory_inner_column_item_ToWhere_time{
+        margin: 8px 0 0 0;
+        font-size: 12px;
+    }
+    /* ------------Main-container_inner_sendingHistory------------------------- */
+    .Main-container_inner_sendingHistory{
+        width: 100%;
+        max-width: 343px;
+        background: inherit;
+    }
+    .Main-container_inner_sendingHistory_inner_title{
+        margin: 0 0 24px 0;
+        padding: 0 0 0 20px;
+    }
+    .Main-container_inner_sendingHistory_inner_title>p{
+        font-size: 24px;
+    }
+    .Main-container_inner_sendingHistory_inner_title_degree{
+        display: none;
+    }
+    .Main-container_inner_sendingHistory_inner_column_item{
+        box-sizing: border-box;
+        border: 1px solid rgb(217, 219, 241);
+        border-radius: 16px;
+        box-shadow: 0px 8px 16px 0px rgba(239, 242, 250, 0.85);
+        background: rgb(255, 255, 255);
+        margin: 0;
+    }
+    .Main-container_inner_sendingHistory_inner_column_item_title{
+        font-size: 18px;
+        margin: 32px 0 0 16px;
+    }
+    .Main-container_inner_sendingHistory_inner_column_item_termsOfSending{
+        position: relative;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 24px 0 24px 16px;
+    }
+    .Main-container_inner_sendingHistory_inner_column_item_termsOfSending_mobileImg{
+        display: block;
+        position: absolute;
+        top: 10%;
+
+    }
+    .Main-container_inner_sendingHistory_inner_column_item_termsOfSending>img{
+        margin: 0;
+    }
+    .Main-container_inner_sendingHistory_inner_column_item_termsOfSending>p{
+        margin: 0;
+    }
+    .Main-container_inner_sendingHistory_inner_column_item_termsOfSending_cityFromWhere{
+        font-size: 16px;
+        margin: 0 0 8px 22px;
+    }
+    .Main-container_inner_sendingHistory_inner_column_item_termsOfSending_icons{
+        display: flex;
+        flex-direction: row;
+        margin: 16px 0 16px 22px;
+    }
+    .Main-container_inner_sendingHistory_inner_column_item_termsOfSending_icons>img:last-child{
+        display: none;
+    }
+    .Main-container_inner_sendingHistory_inner_column_item_termsOfSending_time{
+        font-size: 12px;
+        margin: 0 0 0 22px;
+    }
+    .Main-container_inner_sendingHistory_inner_column_item_termsOfSending_timeMobile{
+        display: block;
+        color: rgb(146, 148, 173);
+        font-family: SF Compact Display;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 120%;
+        margin: 0 0 0 22px;
+    }
+    .Main-container_inner_sendingHistory_inner_column_item_termsOfSending_cityToWhere{
+        margin: 0 0 8px 22px;
+        font-size: 16px;
+    }
+    .Main-container_inner_sendingHistory_inner_column_item_terms{
+        flex-direction: column;
+        margin: 0 0 40px 16px;
+    }
+    .Main-container_inner_sendingHistory_inner_column_item_terms_item{
+        margin: 0 0 8px 0;
+    }
+    /* -------------Main-container_inner_feedbacks------------------------- */
+    .Main-container_inner_feedbacks{
+        border-radius: 0px;
+        box-shadow: none;
+        background: inherit;
+        width: 100%;
+        max-width: 343px;
+    }
+    .Main-container_inner_feedbacks_inner{
+        padding: 0;
+    }
+    .Main-container_inner_feedbacks_inner_title{
+        margin: 0 0 40px 0;
+    }
+    .Main-container_inner_feedbacks_inner_title>p{
+        font-size: 24px;
+    }
+    .Main-container_inner_feedbacks_inner_title_digree{
+        display: none;
+    }
+    .Main-container_inner_feedbacks_inner_column_item{
+        margin: 0 0 32px 0;
+    }
+    .Main-container_inner_feedbacks_inner_column_item>img{
+        width: 48px;
+        height: 48px;
+        margin: 0 16px 0 0;
+    }
+    .Main-container_inner_feedbacks_inner_column_item_content_nickname{
+        font-size: 14px;
+        margin: 0 0 4px 0;
+    }
+    .Main-container_inner_feedbacks_inner_column_item_content_starsAndDate_stars{
+        min-width: max-content;
+        margin: 0 4px 0 0;
+    }
+    .Main-container_inner_feedbacks_inner_column_item_content_starsAndDate_stars>img:not(:last-child){
+        margin: 0 4px 0 0;
+    }
+    .Main-container_inner_feedbacks_inner_column_item_content_starsAndDate_datePublication{
+        font-size: 12px;
+    }
+    .Main-container_inner_feedbacks_inner_column_item_content_starsAndDate{
+        margin: 0 0 23px 0;
+    }
+    .Main-container_inner_feedbacks_inner_column_item_content_text{
+        font-size: 14px;
+        margin: 0 0 0 -65px;
+    }
+  }
